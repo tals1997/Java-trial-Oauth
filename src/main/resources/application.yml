@@ -1,0 +1,18 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: 1035994950190377
+            client-secret: 15a25d3d475dfbfc7281b325c9403165
+            scope: public_profile email user_location
+          google:
+            client-id: 343551143221-c7gnih9dsvskiahnosduo2sp4mtoceca.apps.googleusercontent.com
+            client-secret: OFpFRleIK7-2WBreG8KX5fOH
+logging:
+  level:
+    root: INFO
+    com.memorynotfound: INFO
+    org.springframework.web: INFO
+    org.springframework.security: INFO
